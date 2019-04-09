@@ -19,3 +19,11 @@ Activity 3
 6. Left to right
 7. Yes 
 
+Activity 5
+1. No
+2. Yes 
+3. Yes
+4. Yes
+5. Yes
+6. Yes
+7. No

@@ -98,36 +98,5 @@ public class IntArrayWorker
       }
     }
   }
-  public int getCount(int a){
-    int count = 0;
-    for(int[] item : matrix){
-      for(int i : item){
-        if(i==a)
-          count++;
-      }
-    }
-    return count;
-  }
-  public int getLargest(){
-    int largest = matrix[0][0];
-    for(int[] item : matrix){
-      for(int i : item){
-        if(i > largest)
-          largest = i;
-      }
-    }
-    return largest;
-  }
-  public int getColTotal(int a){
-    int total = 0;
-    for(int i = 0; i<matrix.length; i++){
-      total += matrix[i][a];
-    }
-    return total;
-  }
-  
-  
+ 
 }
-
-
-
