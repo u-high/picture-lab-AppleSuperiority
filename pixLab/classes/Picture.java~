@@ -1,4 +1,4 @@
- import java.awt.*;
+import java.awt.*;
 import java.awt.font.*;
 import java.awt.geom.*;
 import java.awt.image.BufferedImage;
@@ -94,16 +94,6 @@ public class Picture extends SimplePicture
       for (Pixel pixelObj : rowArray)
       {
         pixelObj.setBlue(0);
-      }
-    }
-  }
-  
-  public void keepOnlyBlue(){
-    Pixel[][]pixels = this.getPixels2D();
-    for(Pixel[] rowArray : pixels){
-      for(Pixel pixelObj : rowArray){
-        pixelObj.setRed(0);
-        pixelObj.setGreen(0);
       }
     }
   }
